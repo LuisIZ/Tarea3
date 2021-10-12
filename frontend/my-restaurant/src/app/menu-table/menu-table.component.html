@@ -1,0 +1,15 @@
+<table>
+    <tr>
+      <th>Nombre del plato</th>
+      <th>Precio del plato</th>
+      <th>Fecha de inclusion en el menu</th>
+      <th>Fecha de modificacion del precio</th>
+    </tr>
+    <tr *ngFor="let dish of dishes">
+      <td>{{dish.nombre_plato}}</td>
+      <td>{{dish.precio_plato}}</td>
+      <td>{{dish.created_date}}</td>
+      <td>{{dish.modified_date}}</td>
+    </tr>
+  </table>
+  
